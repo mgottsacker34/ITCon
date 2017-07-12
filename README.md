@@ -4,7 +4,7 @@ Data Science is one of the fastest-evolving and most important fields in the tec
 
 ## Python
 
-Python is a programming language used frequently in Data Science because of its numerous powerful libraries.  Programmers write libraries to extend the functionality of the language and make it easier for other programmers to perform complicated tasks.  Because of these libraries and other features built into Python, it is often the Data Scientist's first choice for analyzing large datasets.  (See why)[https://www.stat.washington.edu/~hoytak/blog/whypython.html].
+Python is a programming language used frequently in Data Science because of its numerous powerful libraries.  Programmers write libraries to extend the functionality of the language and make it easier for other programmers to perform complicated tasks.  Because of these libraries and other features built into Python, it is often the Data Scientist's first choice for analyzing large datasets.  [See why](https://www.stat.washington.edu/~hoytak/blog/whypython.html).
 
 ### Basic Python Tutorial
 
