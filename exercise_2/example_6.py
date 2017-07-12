@@ -1,9 +1,3 @@
-import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
-import matplotlib.pyplot as plt
-import seaborn as sns
-from collections import Counter
-
 movie_genres = df_copy['genres'].map(lambda x:x.split('|'))
 genres = []
 for genre in movie_genres:

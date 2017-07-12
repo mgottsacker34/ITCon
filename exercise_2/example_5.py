@@ -1,9 +1,3 @@
-import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
-import matplotlib.pyplot as plt
-import seaborn as sns
-from collections import Counter
-
 director_critic_ratio = df_copy.groupby(df_copy['director_name'])['critic_ratio'].mean()
 director_critic_idx =director_critic_ratio.sort_values(ascending=False)[:20].index
 director_critic_val =director_critic_ratio.sort_values(ascending=False)[:20].values

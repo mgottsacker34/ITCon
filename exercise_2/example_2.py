@@ -1,9 +1,3 @@
-import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
-import matplotlib.pyplot as plt
-import seaborn as sns
-from collections import Counter
-
 df['diff_gross'] = df['gross'] - df['budget']
 df_copy = df.copy().dropna()
 director_budge = df_copy.groupby(df_copy['director_name'])['diff_gross'].sum()

@@ -13,3 +13,11 @@ Before we can perform any complex analyses, we need to learn the basics.  This s
 ### Python Data Analysis
 
 Now, we will turn to several complete examples of how you can write simple Python code that analyzes a giant dataset.  Look at the src folder of this repository.  These programs work on a dataset of 5,000 movies pulled from IMDB.  They draw connections among data points and help users visualize those connections.  We can use graphs, charts, and other visualization techniques to help people understand our data.
+
+## *Cool* Examples
+
+- [One link](http://blog.visme.co/examples-data-visualizations)
+- [A *cool* map](http://worldpopulationhistory.org/map/1/mercator/1/0/25/)
+- [Another link](http://gigapan.com/gigapans/4306)
+- [Information is beautiful](http://informationisbeautiful.net/)
+- [10 *cool* examples](http://www.mastersindatascience.org/blog/10-cool-big-data-visualizations/)
