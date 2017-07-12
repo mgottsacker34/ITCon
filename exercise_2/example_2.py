@@ -1,3 +1,5 @@
+# Visualizing Director vs Year and Net Monetary Gain
+
 df['diff_gross'] = df['gross'] - df['budget']
 df_copy = df.copy().dropna()
 director_budge = df_copy.groupby(df_copy['director_name'])['diff_gross'].sum()
@@ -13,3 +15,5 @@ fig,ax = plt.subplots(figsize=(8,6))
 sns.heatmap(director_budge_pivot['diff_gross'],vmin=0,annot=False,linewidth=.5,ax=ax,cmap='PuBu')
 plt.title('Director vs Year and diff_gross')
 plt.ylabel('Year')
+
+#----------STOP AND PRESS SHIFT + ENTER----------

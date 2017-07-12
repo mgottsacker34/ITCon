@@ -1,3 +1,5 @@
+# Visualizing the most popular genres across all movies
+
 movie_genres = df_copy['genres'].map(lambda x:x.split('|'))
 genres = []
 for genre in movie_genres:
@@ -39,3 +41,5 @@ sns.barplot(x = genre_counter_indx, y = genre_counter_val,color='#90caf9',ax=ax)
 plt.title('Total Genre')
 ticks = plt.setp(ax.get_xticklabels(),rotation=90)
 del fig,ax,ticks
+
+#----------STOP AND PRESS SHIFT + ENTER----------

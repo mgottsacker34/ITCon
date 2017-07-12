@@ -14,8 +14,14 @@ from collections import Counter
 from subprocess import check_output
 print(check_output(["ls", "../input"]).decode("utf8"))
 
+#----------STOP AND PRESS SHIFT + ENTER----------
+
 # Any results you write to the current directory are saved as output.
 
 df = pd.read_csv('../input/movie_metadata.csv')
 
+#----------STOP AND PRESS SHIFT + ENTER----------
+
 df.head()
+
+#----------STOP AND PRESS SHIFT + ENTER----------

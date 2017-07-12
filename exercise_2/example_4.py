@@ -1,3 +1,5 @@
+# Visualizing Countries' Net Monetary Gain from Movies each Year
+
 country_gross = df_copy.groupby(df['country'])['diff_gross'].sum().sort_values(ascending=False)
 country_gross_indx = country_gross[:20].index
 
@@ -12,5 +14,9 @@ plt.title('Country\'s diff_gross vs year')
 ticks = plt.setp(ax.get_xticklabels(),rotation=90)
 del fig,ax,ticks
 
+#----------STOP AND PRESS SHIFT + ENTER----------
+
 df_copy['critic_ratio'] = df_copy['num_critic_for_reviews'] / df_copy['num_user_for_reviews']
 df_copy.head()
+
+#----------STOP AND PRESS SHIFT + ENTER----------
