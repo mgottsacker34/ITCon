@@ -12,8 +12,7 @@ from collections import Counter
 
 # Input data files are available in the "../input/" directory.
 # For example, running this (by clicking run or pressing Shift+Enter) will list the files in the input directory
-from subprocess import check_output
-print(check_output(["ls", "../input"]).decode("utf8"))
+
 
 #----------STOP AND PRESS SHIFT + ENTER----------
 
