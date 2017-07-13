@@ -1,5 +1,6 @@
 # Visualizing the most popular genres across all movies
 
+# process the data's genres.  When a movie falls into more than one genre, they are delimited with a |
 movie_genres = df_copy['genres'].map(lambda x:x.split('|'))
 genres = []
 for genre in movie_genres:
